@@ -5,3 +5,7 @@ Welcome to my Twine Game website for the course IASC-1P04 at Brock University (F
 ## Playtest
 
 Playtest my game [here]
+
+## Prototype
+
+Play the prototype [here](prototype/TwineGamePrototype.html)
