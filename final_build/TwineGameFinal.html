@@ -203,11 +203,11 @@ It was &lt;span id=&quot;npc&quot;&gt;$friend&lt;/span&gt;, your closest friend.
 &lt;&lt;timed 2s&gt;&gt;
 [[Yeah, I&#39;m alright. Let&#39;s get going|Character_Building]]
 &lt;&lt;/timed&gt;&gt;
-&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="3" name="Room" tags="" position="902,474" size="100,100">&lt;&lt;audio bubbles stop&gt;&gt;
+&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="3" name="Room" tags="" position="902,475" size="100,100">&lt;&lt;audio bubbles stop&gt;&gt;
 &lt;&lt;audio coffee stop&gt;&gt;
 &lt;&lt;audio sms stop&gt;&gt;
 &lt;&lt;audio bg_noise stop&gt;&gt;
-&lt;&lt;set $event = 3&gt;&gt;
+&lt;&lt;set $event = $chance.random()&gt;&gt;
 &lt;span id=&quot;npc&quot;&gt;$friend&#39;s&lt;/span&gt; Cool Stats:
 &lt;span id=&quot;stat&quot;&gt;$fStrength	STRENGTH
 $fIntelligence	INTELLIGENCE
